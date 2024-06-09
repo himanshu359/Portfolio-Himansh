@@ -1,0 +1,47 @@
+.workingStackDiv{
+    border-bottom: 1px;
+    border-color: #171717;
+    padding: 3rem 0;
+}
+.technologyHeading{
+    margin:2rem 0;
+    text-align: center;
+    font-size: xx-large;
+}
+.stackContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:1rem
+}
+.stackContainerInnerDiv{
+    border: 0.2rem solid;
+    border-radius: 20%;
+    border-color: #2d3748;
+    padding:0.5rem;
+}
+.reactjs{
+    font-size: xx-large;
+    color: cyan;
+}
+.nodejs{
+    font-size: xx-large;
+    color:#21A366
+}
+.mongodb{
+    font-size: xx-large;
+    color:#689F38
+}
+.javascript{
+    font-size: xx-large;
+    color:yellow
+}
+.css{ 
+    font-size: xx-large;
+    color:#2AA4F4
+}
+.mySql{
+    font-size: xx-large;
+    color:white
+}

@@ -1,0 +1,75 @@
+.aboutMainClass{
+    border-bottom: 2px;
+    border-color: #171717;
+    padding-bottom:1rem;
+}
+@media (min-width:1024px){
+    .aboutMainClass{
+        margin-bottom: 5rem;
+    }
+}
+.aboutMainChild{
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutContainer{
+    width:100%;
+}
+@media (min-width:1024px) {
+    .aboutContainer{
+        width: 50%;
+    }
+}
+.aboutContainerChild{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width:1024px) {
+    .aboutContainerChild{
+        align-items: flex-start;
+    }
+}
+.headerClass{
+    padding-bottom: 2rem;
+    font-weight: 100;
+    letter-spacing: 0.9rem;
+}
+@media (min-width:1024px) {
+    .headerClass{
+        margin-top: 2rem;
+    } 
+}
+.designation{
+    background: linear-gradient(to right, #FDA4AF,#64748B,#A855F7);
+    letter-spacing: 0.1rem;
+    background-clip: text;
+    font-size: 36px;
+    color: transparent;
+}
+.profileSummary{
+    margin: 0.5rem 0;
+    letter-spacing: 0.05rem;
+    padding: 1.25rem 0;
+    font-weight: lighter;
+    max-width: 36rem;
+}
+.profileImage{
+    width: 100%;
+}
+@media (min-width:1024px) {
+    .profileImage{
+        width:50%;
+    }  
+}
+.profileImageChild{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0.5rem
+}
+.myImageClass{
+    width: 22rem;
+    border-radius: 5%;
+    background-size: cover ;
+    -webkit-mask-image: linear-gradient(to bottom, black, transparent);
+    mask-image: linear-gradient(to bottom,black, transparent);
+}

@@ -1,0 +1,78 @@
+.experienece{
+    border-bottom: 1px;
+    border-color: #171717;
+    padding: 1rem 0;
+}
+.expHeader{
+    margin:2rem 0 4rem;
+    text-align: center;
+    font-size: xx-large;
+}
+.contactHeader{
+    margin:2rem 0;
+    text-align: center;
+    font-size: xx-large;
+}
+.expContainer{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.expInnerCont{
+    width:100%;
+    text-align:center
+}
+.expYear{
+    margin-bottom: 1.5rem;
+    font-size: medium;
+}
+.expDesc{
+    width:100%;
+    max-width: 36rem;
+}
+.expComapny{
+    margin-bottom: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    margin-top: 0.5rem;
+}
+.expDescInner{
+    margin-bottom: 1rem;
+    color:#9CA3AF;
+    letter-spacing: 0.05rem;
+}
+.expTech{
+    margin: 1rem 0.5rem 0 0;
+    border-radius:20%;
+    padding: 0.5rem 0.2rem;
+    font-size: medium;
+    color:#A855F7
+}
+.contacts{
+    text-align: center;
+    letter-spacing: 0.05rem;;
+}
+.contacts p{
+    margin: 1rem 0
+}
+.contacts a{
+    margin-top: 1rem;
+    border-bottom: '1px solid';
+    color: lightgray;
+}
+.projectContainer{
+    width:100%;
+    font-weight: 500;
+    text-align: center;
+}
+@media (min-width:1024px){
+    .expContainer{
+        justify-content: center;
+    }
+    .expInnerCont{
+        width:50%
+    }
+    .expDesc{
+        width:75%
+    }
+}
